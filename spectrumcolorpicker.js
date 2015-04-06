@@ -55,5 +55,5 @@ Template.afSpectrumColorpicker.rendered = function () {
 
 Template.afSpectrumColorpicker.destroyed = function () {
   var $input = this.data.atts.buttonClasses ? this.$('.input-group.color') : this.$('input');
-  $input.datepicker('remove');
+  $input.spectrum('destroy');
 };
