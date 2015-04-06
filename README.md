@@ -52,7 +52,7 @@ To easily add an input group add-on after the field, just provide the classes fo
 {{> afFieldInput name="typeTest" type="spectrum-colorpicker" buttonClasses="glyphicon glyphicon-calendar"}}
 ```
 
-If you want to customize the appearance of the input more, for example to use input group add-ons both before and after the field, use the [aldeed:template-extension](https://atmospherejs.com/aldeed/template-extension) package to replace the "afBootstrapDatepicker" template, like this:
+If you want to customize the appearance of the input more, for example to use input group add-ons both before and after the field, use the [aldeed:template-extension](https://atmospherejs.com/aldeed/template-extension) package to replace the "afSpectrumColorpicker" template, like this:
 
 ```html
 <template name="dpReplacement">
@@ -66,7 +66,7 @@ If you want to customize the appearance of the input more, for example to use in
 ```
 
 ```js
-Template.dpReplacement.replaces("afBootstrapDatepicker");
+Template.dpReplacement.replaces("afSpectrumColorpicker");
 ```
 
 ## Contributing
