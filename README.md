@@ -73,4 +73,4 @@ Template.dpReplacement.replaces("afBootstrapDatepicker");
 
 Anyone is welcome to contribute. Fork, make your changes, and then submit a pull request.
 
-[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/aldeed/)
+[![Support via Gratipay](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://gratipay.com/thegreatshasha)
