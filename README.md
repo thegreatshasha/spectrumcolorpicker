@@ -1,0 +1,1 @@
+This is a meteor wrap of the spectrum colorpicker
