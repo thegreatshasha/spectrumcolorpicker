@@ -28,7 +28,7 @@ In the schema, which will then work with a `quickForm` or `afQuickFields`:
   date: {
     type: Date,
     autoform: {
-      type: "bootstrap-datepicker"
+      type: "spectrum-colorpicker"
     }
   }
 }
@@ -37,11 +37,11 @@ In the schema, which will then work with a `quickForm` or `afQuickFields`:
 Or on the `afFieldInput` component or any component that passes along attributes to `afFieldInput`:
 
 ```js
-{{> afQuickField name="typeTest" type="bootstrap-datepicker"}}
+{{> afQuickField name="typeTest" type="spectrum-colorpicker"}}
 
-{{> afFormGroup name="typeTest" type="bootstrap-datepicker"}}
+{{> afFormGroup name="typeTest" type="spectrum-colorpicker"}}
 
-{{> afFieldInput name="typeTest" type="bootstrap-datepicker"}}
+{{> afFieldInput name="typeTest" type="spectrum-colorpicker"}}
 ```
 
 ## Customizing Appearance
