@@ -44,6 +44,21 @@ Or on the `afFieldInput` component or any component that passes along attributes
 {{> afFieldInput name="typeTest" type="spectrum-colorpicker"}}
 ```
 
+To provide spectrum-colorpicker options, set a colorPickerOptions attribute equal to a helper that returns the options object.
+
+E.g:
+```
+	color: {
+		autoform: {
+			type: "spectrum-colorpicker",
+			colorPickerOptions: {
+				preferredFormat: "hex",
+			}
+		}
+	}
+```
+
+
 ## Customizing Appearance
 
 To easily add an input group add-on after the field, just provide the classes for the span in a `buttonClasses` attribute:
